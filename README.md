@@ -1,4 +1,4 @@
-# 🐾 Mèo Blog - Next.js Learning Platform
+# 🐾 Cat Blog - Next.js Learning Platform
 
 Mèo Blog là một ứng dụng web hiện đại được xây dựng để chia sẻ kiến thức, kinh nghiệm chăm sóc và những câu chuyện thú vị về loài mèo. Dự án được phát triển dựa trên **Next.js 15+ (App Router)** với mục tiêu tối ưu hiệu năng và trải nghiệm người dùng cao cấp.
 
