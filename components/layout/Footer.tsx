@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Cat, Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
+import { Cat, Globe, Mail, MessageCircle, Heart } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -22,16 +22,16 @@ export default function Footer() {
           </p>
           <div className="flex gap-4">
             <Link href="#" className="p-2 bg-gray-800 rounded-full text-gray-400 hover:text-white transition-colors">
-              <Facebook className="w-5 h-5" />
+              <Globe className="w-5 h-5" />
             </Link>
             <Link href="#" className="p-2 bg-gray-800 rounded-full text-gray-400 hover:text-white transition-colors">
-              <Instagram className="w-5 h-5" />
+              <Mail className="w-5 h-5" />
             </Link>
             <Link href="#" className="p-2 bg-gray-800 rounded-full text-gray-400 hover:text-white transition-colors">
-              <Twitter className="w-5 h-5" />
+              <MessageCircle className="w-5 h-5" />
             </Link>
             <Link href="#" className="p-2 bg-gray-800 rounded-full text-gray-400 hover:text-white transition-colors">
-              <Youtube className="w-5 h-5" />
+              <Heart className="w-5 h-5" />
             </Link>
           </div>
         </div>
