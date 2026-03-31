@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "title": "Bí quyết chăm sóc mèo con mới về nhà",
+    "slug": "bi-quyet-cham-soc-meo-con-moi-ve-nha",
+    "excerpt": "Hướng dẫn chi tiết từ A-Z cách chào đón và chăm sóc thành viên mèo mới trong gia đình bạn.",
+    "content": "# Bí quyết chăm sóc mèo con mới về nhà\n\nChăm sóc mèo con là một hành trình đầy thú vị nhưng cũng không ít thách thức. Dưới đây là những điều bạn cần chuẩn bị:\n\n1. **Không gian riêng**: Hãy chuẩn bị một góc nhỏ yên tĩnh cho mèo...\n2. **Chế độ dinh dưỡng**: Mèo con cần thức ăn giàu protein...\n3. **Y tế**: Đừng quên đưa bé đi tiêm phòng đầy đủ.",
+    "coverImage": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=1000&auto=format&fit=crop",
+    "author": {
+      "id": "1",
+      "name": "Sen Chuyên Nghiệp",
+      "avatar": "https://i.pravatar.cc/150?u=sen1",
+      "bio": "Người yêu mèo hơn bất cứ thứ gì trên đời."
+    },
+    "category": {
+      "id": "1",
+      "name": "Hướng dẫn",
+      "slug": "huong-dan"
+    },
+    "publishedAt": "2026-03-31T10:00:00Z",
+    "tags": ["meo con", "cham soc", "thu cung"],
+    "readingTime": 5
+  },
+  {
+    "id": "2",
+    "title": "Top 5 giống mèo phổ biến nhất tại Việt Nam",
+    "slug": "top-5-giong-meo-pho-bien-nhat-tai-viet-nam",
+    "excerpt": "Khám phá những giống mèo được yêu thích nhất bởi các gia đình Việt hiện nay.",
+    "content": "# Top 5 giống mèo phổ biến nhất tại Việt Nam\n\nBạn đang tìm kiếm một người bạn bốn chân? Hãy tham khảo danh sách này:\n\n- **Mèo Mướp**: Thông minh, khỏe mạnh và dễ thương.\n- **Mèo Anh Lông Ngắn (Aln)**: Khuôn mặt bánh bao không thể cưỡng lại.\n- **Mèo Ba Tư**: Sang trọng với bộ lông dài mượt...",
+    "coverImage": "https://images.unsplash.com/photo-1543852786-1cf6624b9987?q=80&w=1000&auto=format&fit=crop",
+    "author": {
+      "id": "2",
+      "name": "Bác Sĩ Thú Y",
+      "avatar": "https://i.pravatar.cc/150?u=vet1",
+      "bio": "Chuyên gia tư vấn sức khỏe thú cưng."
+    },
+    "category": {
+      "id": "2",
+      "name": "Kiến thức",
+      "slug": "kien-thuc"
+    },
+    "publishedAt": "2026-03-31T15:30:00Z",
+    "tags": ["giong meo", "thu cung", "kham pha"],
+    "readingTime": 4
+  }
+]
