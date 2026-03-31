@@ -1,6 +1,7 @@
 import { getPostBySlug, getAllPosts } from '@/lib/api';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
+import PostContent from '@/components/blog/PostContent';
 import { Calendar, Clock, User, ChevronLeft, Share2, Bookmark } from 'lucide-react';
 import Link from 'next/link';
 import { format } from 'date-fns';
@@ -94,11 +95,7 @@ export default async function PostPage({ params }: PostPageProps) {
           />
         </div>
 
-        <div className="prose prose-lg prose-orange max-w-none prose-headings:font-black prose-p:leading-relaxed prose-p:text-gray-600 prose-strong:text-gray-900 prose-img:rounded-3xl prose-img:shadow-xl">
-           <div className="whitespace-pre-line text-lg leading-loose">
-              {post.content}
-           </div>
-        </div>
+        <PostContent content={post.content} />
 
         <div className="mt-16 pt-10 border-t border-gray-100 flex flex-wrap items-center justify-between gap-6">
           <div className="flex flex-wrap gap-2">
