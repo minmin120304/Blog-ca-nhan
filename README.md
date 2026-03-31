@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐾 Mèo Blog - Next.js Learning Platform
 
-## Getting Started
+Mèo Blog là một ứng dụng web hiện đại được xây dựng để chia sẻ kiến thức, kinh nghiệm chăm sóc và những câu chuyện thú vị về loài mèo. Dự án được phát triển dựa trên **Next.js 15+ (App Router)** với mục tiêu tối ưu hiệu năng và trải nghiệm người dùng cao cấp.
 
-First, run the development server:
+## 🚀 Tính năng nổi bật
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Kiến trúc App Router**: Sử dụng Server Components, Parallel Routes và Dynamic Routing.
+- **Thiết kế Hiện đại**: UI/UX đậm chất "boss", sử dụng Tailwind CSS 4, hiệu ứng Glassmorphism và tối ưu hóa Typography.
+- **Hệ thống Blog**:
+  - Tìm kiếm bài viết thời gian thực (Debounced Search).
+  - Lọc bài viết theo chuyên mục.
+  - Trang chi tiết với Typography chuẩn SEO.
+- **Hệ thống Bình luận**: Tích hợp Parallel Routing (`@comments`) với tính năng Optimistic Updates.
+- **Form Liên hệ**: Validation phía Client & Server với React Hook Form và Zod.
+- **Tối ưu UX**: Hiệu ứng Skeleton Loading cho mọi trang fetch dữ liệu.
+- **SEO Ready**: Tự động tạo Metadata, hỗ trợ OpenGraph và tối ưu hóa hình ảnh.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS 4
+- **Language**: TypeScript
+- **Validation**: Zod + React Hook Form
+- **Icons**: Lucide React
+- **Notifications**: React Hot Toast
+- **Date Formatting**: date-fns
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Cài đặt & Chạy ứng dụng
 
-## Learn More
+1. **Clone dự án**:
+   ```bash
+   git clone <repo-url>
+   cd Blog-ca-nhan
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Cài đặt dependencies**:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Chạy chế độ development**:
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Build sản phẩm**:
+   ```bash
+   npm run build
+   npm start
+   ```
 
-## Deploy on Vercel
+## 📂 Cấu trúc thư mục
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `app/`: Routing và Pages.
+- `components/`: Thư viện Component (Layout, Blog, Forms, UI).
+- `lib/`: Các hàm tiện ích, API logic và Validation schemas.
+- `types/`: Định nghĩa kiểu dữ liệu TypeScript.
+- `data/`: Dữ liệu mẫu (JSON).
+- `hooks/`: Custom React hooks.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Chúc các Sen có những giây phút thư giãn cùng Mèo Blog!* 🐱✨
