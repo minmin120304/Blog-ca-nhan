@@ -1,0 +1,25 @@
+export default function Loading() {
+  return (
+    <div className="container mx-auto px-4 py-16">
+      <div className="max-w-2xl mb-12 animate-pulse">
+        <div className="h-12 bg-gray-200 rounded-2xl w-3/4 mb-4"></div>
+        <div className="h-6 bg-gray-100 rounded-xl w-1/2"></div>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {[1, 2, 3, 4, 5, 6].map((i) => (
+          <div key={i} className="bg-white rounded-3xl border border-gray-100 overflow-hidden shadow-sm flex flex-col h-[450px] animate-pulse">
+            <div className="h-56 bg-gray-200 w-full"></div>
+            <div className="p-6 space-y-4">
+              <div className="h-4 bg-gray-100 rounded w-1/4"></div>
+              <div className="h-8 bg-gray-200 rounded w-full"></div>
+              <div className="h-4 bg-gray-100 rounded w-full"></div>
+              <div className="h-4 bg-gray-100 rounded w-2/3"></div>
+              <div className="pt-4 h-10 w-full bg-gray-50 rounded-xl"></div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
