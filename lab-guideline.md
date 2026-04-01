@@ -82,5 +82,3 @@ Tài liệu này hướng dẫn chi tiết các bước để xây dựng một 
 4.  **Zod & React Hook Form:** Bộ đôi hoàn hảo để xử lý form và dữ liệu an toàn (Type-safe).
 5.  **Date-fns:** Thư viện xử lý thời gian gọn nhẹ.
 
----
-*Chúc bạn hoàn thành bài lab xuất sắc! Nếu cần hỗ trợ thêm về mã nguồn chi tiết, hãy yêu cầu Antigravity nhé.*
